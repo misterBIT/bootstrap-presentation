@@ -1,0 +1,6 @@
+@import "../bower_components/bootstrap/less/bootstrap";
+
+.my-special-btn{
+  .btn;
+  .button-variant(yellow; @btn-primary-bg; @btn-default-border);
+}

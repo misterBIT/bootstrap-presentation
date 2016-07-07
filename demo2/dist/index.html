@@ -1,0 +1,56 @@
+<!DOCtype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <form novalidate>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="">
+                Option one is this and that&mdash;be sure to include why it's great
+            </label>
+        </div>
+        <div class="checkbox disabled">
+            <label>
+                <input type="checkbox" value="" disabled>
+                Option two is disabled
+            </label>
+        </div>
+
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Option one is this and that&mdash;be sure to include why it's great
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Option two can be something else and selecting it will deselect option one
+            </label>
+        </div>
+        <div class="radio disabled">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                Option three is disabled
+            </label>
+        </div>
+        <label class="sr-only" for="inputHelpBlock">Input with help text</label>
+        <div class="form-group has-error">
+            <input type="email" required id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+            <span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+        </div>
+        <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </form>
+</div>
+</body>
+</html>
